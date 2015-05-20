@@ -1,0 +1,377 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  
+  color: #5a5a5a;
+  font-family: 'Open Sans', sans-serif;
+  background-color:#f1f2f2;
+}
+
+.divisor{
+	padding:15px 0;}
+	
+.navbar-inverse{
+	background-color:#00833f;
+	border:none;}
+	
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+	background-color:#43aa3b;}
+	
+.navbar-inverse
+
+a.navbar-brand{
+	background-image:url(images/logo-algeya.jpg);
+	width:132px;
+	height:131px;
+	text-indent:-9999px;
+	margin:18px 0;
+	}
+
+.navbar-inverse .navbar-nav > li > a:hover{
+	background-color:#43aa3b;
+	border-bottom: 15px solid #fff;}
+	
+.navbar-inverse .navbar-nav > li > a{
+	padding-top:76px;
+	font-size: 14px;
+	padding-bottom: 10px;
+	color: #fff;
+	}
+	
+.banner01{
+	background-image:url(images/banner01.jpg);
+	background-size:cover;}
+	
+.banner02{
+	background-image:url(images/banner02.jpg);
+	background-size:cover;}
+
+.banner03{
+	background-image:url(images/banner03.jpg);
+	background-size:cover;}
+	
+#myCarousel{
+	margin-top:165px;}
+	
+.carousel-caption{
+	z-index: 10;
+	display: block;
+	position: absolute;
+	text-align: left;
+	bottom:auto;
+	top:150px;
+	}
+	
+.carousel-caption h1{
+	font-size:75px;
+	font-weight:bold;
+	letter-spacing:-0.05em;
+	color:#fff;}
+	
+.banner01 .carousel-caption {
+	left:40%;}
+	
+#myCarousel .glyphicon-chevron-left:before, #myCarousel .glyphicon-chevron-right:before{
+	content:none;}
+	
+.carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left{
+	left:0;}
+	
+.carousel-control .icon-next, .carousel-control .glyphicon-chevron-right{
+	right:0;}
+	
+.carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right{
+	top:40%;
+	}
+	
+.carousel-indicators li{
+	border-radius:0;
+	height:15px;
+	width:15px;
+	margin:0;}
+	
+.carousel-indicators .active{
+	height:15px;
+	width:15px;
+	margin:0;
+	}
+	
+.btn-success{
+	color:#00833f;
+	font-size:40px;
+	font-weight:bold;
+	background-color:#85d137;}
+	
+.btn-success2{
+	color:#fff;
+	font-size:20px;
+	font-weight:bold;
+	background-color:#85d137;}
+	
+p, ul{
+	font-size:18px;
+	line-height:1.2em;
+	font-weight:300;
+	margin-bottom:25px;}
+	
+textarea.form-control{
+	height:150px;}
+
+.form-horizontal label{
+	font-weight:bold;
+	color:#85d137;
+	font-size:18px;}
+
+h1{
+	font-size:48px;
+	font-weight:bold;
+	color:#85d137;
+	letter-spacing:-0.05em;
+  	font-family: 'Open Sans', sans-serif;
+	margin-bottom:0;
+	}
+
+h2{
+	font-size:35px;
+	font-weight:bold;
+	color:#58595b;
+	letter-spacing:-0.05em;
+  	font-family: 'Open Sans', sans-serif;
+	margin-top:0;
+	}
+	
+h3{
+	color:#fff;
+	font-size:30px;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin-top:0;
+	margin-bottom:15px;
+    font-family: 'Open Sans', sans-serif;
+	letter-spacing:-0.05em;
+	}
+	
+blockquote{
+	background-color:#097f42;
+	border:none;
+	border-radius:12px;
+	font-weight:normal;}
+	
+.blob{
+	margin-bottom:45px;
+	}
+	
+.blob div{
+	padding:10px;
+	background-color:#85d137;
+	padding-right:20px;
+	}
+	
+.blob p{
+	font-size:12px;
+	color:#fff;
+	text-align:justify;
+	margin-bottom:0;}
+	
+.blob h3{
+	margin-bottom:5px;}
+	
+.blob img{
+	margin-right:20px;}
+
+.full-gris{
+	background-color:#58595b;
+	color:#fff;}
+	
+.full-verde1{
+	background-color:#00833f;
+	color:#fff;}
+	
+.full-verde2{
+	background-color:#85d137;
+	color:#fff;
+	padding:50px 0;}
+	
+.full-verde2 h1{
+	margin:0;
+	padding:0;}
+
+.resalte{
+	color:#00833f;
+	font-weight:bold;}
+
+.servicios{
+	background-color:#666; /*borrar*/
+	color:#fff;
+	padding:15px;
+	box-shadow:3px 3px 6px #ccc;
+	}
+	
+.servicios p{
+	margin-bottom:0;}
+	
+	
+.servicios img{
+	margin-top:30px;
+	margin-bottom:20px;
+	margin-right:20px;}
+	
+.azul{
+	background-color:#1d7cc1;}
+	
+.amarillo{
+	background-color:#fbc031;}
+	
+.naranja{
+	background-color:#f57d22;}
+	
+	
+
+footer{
+	padding-bottom:60px;
+	padding-top:25px;
+	color:#fff;
+	background-color:#00833f;}
+	
+
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+.navbar-wrapper .navbar {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 568px;
+  margin-bottom: 0px; /*modificado por desarrollador*/
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 568px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 950px;
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  /*padding-left: 15px;
+  padding-right: 15px;*/
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-left:  15px;
+    padding-right: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-left:  0;
+    padding-right: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 0px; /*modified by developer*/
+  }
+}
